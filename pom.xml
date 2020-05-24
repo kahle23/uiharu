@@ -150,6 +150,18 @@
             <scope>test</scope>
         </dependency>
 
+        <!--<dependency>
+            <groupId>com.blueconic</groupId>
+            <artifactId>browscap-java</artifactId>
+            <version>1.2.16</version>
+        </dependency>-->
+
+        <dependency>
+            <groupId>com.github.ua-parser</groupId>
+            <artifactId>uap-java</artifactId>
+            <version>1.4.3</version>
+        </dependency>
+
     </dependencies>
 
     <build>

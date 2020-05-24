@@ -1,5 +1,6 @@
 package uiharu.controller;
 
+import org.springframework.stereotype.Controller;
 import uiharu.service.HomeService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
  * Home controller.
  * @author Kahle
  */
-//@Controller
+@Controller
 public class HomeController {
     private static Logger log = LoggerFactory.getLogger(HomeController.class);
 
